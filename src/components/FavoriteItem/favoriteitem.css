@@ -1,0 +1,10 @@
+.wishlist-detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.undofavorite-text{
+	position: relative;
+	top: -8px;
+}

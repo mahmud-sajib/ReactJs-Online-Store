@@ -1,0 +1,122 @@
+.products{
+    display: flex; /* block level display */
+    flex-wrap: wrap; /* wrap container so that flex items don't overflow */
+}
+
+.product-card{
+    margin: 1.5%;
+    flex-grow: 1; /* consume the remaining white space */
+    flex-basis: 30%; /* set initial width */
+    padding: 20px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,.075);
+    border-radius: 6px;
+    position: relative;
+}
+
+.product-image img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex; /* block level display */
+}
+
+.product-info{
+    text-align: center;
+}
+
+.product-detail{
+    display: flex; /* block level display */
+    flex-wrap: wrap; /* wrap container so that flex items don't overflow */
+}
+
+.product-detail-image{
+    flex-grow: 1;
+    flex-basis: 45%;
+}
+
+.product-detail-image img{
+    margin: 0 auto;
+    display: flex;
+}
+
+.product-detail-info{
+    flex-grow: 1;
+    flex-basis: 50%;
+    padding: 25px;
+}
+
+.lead{
+    font-size: 22px;
+}
+
+.add-cart-btn, .checkout{
+    background: black;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.add-cart-btn:hover{
+    background: white;
+    color: black;
+    border: 2px solid black;
+    
+}
+
+.remove-cart-btn {
+	background: rgba(0,0,0,0.7);
+	color: white;
+	border: none;
+	font-size: 12px;
+	padding: 10px;
+	text-transform: uppercase;
+	border: 2px solid rgba(0,0,0,0.2);
+	margin: 5px;
+	font-weight: bold;
+}
+
+.view-detail-btn, .reset{
+    background: white;
+    color: black;
+    font-size: 12px;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.view-detail-btn:hover{
+    background: black;
+    color: white;
+}
+
+.view-detail-btn a{
+    text-decoration: none;
+}
+
+.favorite-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.ri-heart-fill{
+    color: red;
+    opacity: 70%;
+}
+
+@media (max-width: 780px) {
+    .product-card {
+      flex: 1 45%; /* consume the remaining white space & initial width set to 45% */
+    }
+}
+
+@media (max-width: 480px) {
+    .product-card {
+      flex: 1 90%; /* consume the remaining white space & initial width set to 90% */
+    }
+}

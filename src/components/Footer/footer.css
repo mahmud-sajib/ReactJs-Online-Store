@@ -1,0 +1,8 @@
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer > p{
+    font-weight: 100;
+    font-size: 14px;
+}

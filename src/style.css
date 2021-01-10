@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body, button{
+  font-family: 'Montserrat', sans-serif;
+}
+
+button{
+  cursor: pointer;
+}
+
+.about-page{
+  text-align: center;
+  margin: 80px 0;
+}

@@ -1,0 +1,51 @@
+nav{
+    background:black;
+    width:80%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+}
+
+ul.nav-items {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	flex: 2 2;
+}
+
+ul.nav-icons{
+    margin:0;
+    padding:0;
+    display: flex;
+    flex: 1 1;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+li{
+    list-style:none;
+}
+
+.logo {
+	font-family: 'Redressed', cursive;
+	font-size: 25px;
+	flex: 1 1;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+    display:block;
+}
+
+nav a:hover{
+    color:black;
+    background:white;
+}
+
+.item-count{
+    margin-top: -6px;
+    position: absolute;
+}
