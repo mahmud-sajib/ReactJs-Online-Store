@@ -101,8 +101,9 @@ function StateProvider({children}){
     useEffect(() => {
         // calculate total bill
         const totalPrices = cartItems.reduce((total, product) => total + product.price * product.quantity, 0).toFixed(2);
-        setTotal(totalPrices);
-    }, [totalItems])
+            setTotal(totalPrices);
+
+    }, [totalItems, cartItems])
     
     return(
         <StateContext.Provider value={{products, total, totalItems, cartItems, addToCart, removeFromCart, favoriteItems, addToFavorite, removeFromFavorite, increaseCount, decreaseCount, resetCart, checkOutCart}}>
