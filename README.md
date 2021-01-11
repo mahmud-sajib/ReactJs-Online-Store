@@ -21,9 +21,11 @@ ReactJs Online Store is a simple online shop to sell t-shirts and mark pictures 
 
 A few of the things you can do with this app:
 
-* Mark/Unmark Pictures as Favorite
-* Add Pictures to Cart
-* Delete Pictures from Cart
+* View all Products
+* View Product Detail
+* Add Product to Cart
+* Delete Product from Cart
+* Mark/Unmark Product as Favorite
 * Place an Order
 
 ## Installation Process
