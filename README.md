@@ -2,7 +2,7 @@
 
 
 <h3 align="center">
-  A Simple online shop to sell t-shirts and mark pictures as favorite. Built with Reactjs.
+  A Simple Online Shop to Sell T-shirts and mark them as favorite. Built with Reactjs.
 </h3>
 
 ## Table of Contents
